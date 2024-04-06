@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: chartreuse;
+}
+
+p{
+    display: inline;
+}
+
+input{
+    background-color: black;
+    color: chartreuse;
+    border: 0cap;
+    caret-color:white;
+
+    &:focus{
+       border: none;
+       outline: none;
+    &::placeholder{
+        color: white;
+    }  
+    }
+}   
